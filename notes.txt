@@ -1,0 +1,31 @@
+          <source type='application/x-mpegURL' src='https://zee5vodnd.akamaized.net'>
+        </video><br><span>Select Your Favourite Player to Watch</span><br>
+        
+        
+        
+        <br><a href='vlc://https://zee5vodnd.akamaized.net'><img src='img/vlc.png' width='50' height='50'></a>&ensp;
+        
+        
+        <a href=''><img src='img/mx.png'  width='50' height='50'></a>&ensp;<a href=''><img src='img/mxp.png'  width='50' height='50'></a>&ensp;<a href='nplayer-https://zee5vodnd.akamaized.net'><img src='img/np.png'  width='50' height='50'></a>&ensp;<a href='potplayer:https://zee5vodnd.akamaized.net'><img src='img/pot.png'  width='50' height='50'></a><br><br><button class='btn' data-clipboard-text='https://zee5vodnd.akamaized.net'>
+    Copy Link
+</button></center></div>
+</main>
+<script>var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});</script>
+
+
+
+
+https://seedr.torrentdev.workers.dev/?action=addmagnet&magnet=sd
