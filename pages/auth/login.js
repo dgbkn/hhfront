@@ -195,9 +195,9 @@ export default function Login() {
   };
 
 
-  useEffect(() => {
-    checkConnection();
-  }, []);
+  // useEffect(() => {
+  //   checkConnection();
+  // }, []);
 
 
   return (
