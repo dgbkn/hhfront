@@ -40,15 +40,15 @@ export default function Hero_Lol() {
                                 bg: 'purple.400',
                                 zIndex: -1,
                             }}>
-                           Welcome To,
+                            Welcome To,
                         </Text>
                         <br />
                         <Text as={'span'} color={'purple.700'}>
-                        HiddenHustlers
+                            HiddenHustlers
                         </Text>
                     </Heading>
                     <Text color={'gray.500'}>
-                    Because those who hustle win.
+                        Because those who hustle win.
                     </Text>
                     <Stack
                         spacing={{ base: 4, sm: 6 }}
