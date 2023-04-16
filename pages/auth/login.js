@@ -31,6 +31,7 @@ import Popup from "reactjs-popup";
 
 
 import Web3 from 'web3';
+let web3 = new Web3(Web3.givenProvider) // Will hold the web3 instance
 
 const avatars = [
   {
@@ -56,7 +57,6 @@ const avatars = [
 ];
 
 export default function Login() {
-  let web3 = new Web3(Web3.givenProvider) // Will hold the web3 instance
 
   const [haveMetamask, sethaveMetamask] = useState(true);
   const [isProvider, setisProvider] = useState(null);
@@ -203,7 +203,7 @@ export default function Login() {
 
   return (
     <>
-      <Modal isOpen={isModalOpen} onClose={() => { setisModalOpen(false) }} >
+      {/* <Modal isOpen={isModalOpen} onClose={() => { setisModalOpen(false) }} >
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Sign Me up as</ModalHeader>
@@ -226,7 +226,7 @@ export default function Login() {
             </Button>
           </ModalFooter>
         </ModalContent>
-      </Modal>
+      </Modal> */}
 
 
       <Head>
