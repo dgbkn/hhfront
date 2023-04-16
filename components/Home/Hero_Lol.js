@@ -43,14 +43,12 @@ export default function Hero_Lol() {
                            Welcome To,
                         </Text>
                         <br />
-                        <Text as={'span'} color={'purple.400'}>
-                            use everywhere!
+                        <Text as={'span'} color={'purple.700'}>
+                        HiddenHustlers
                         </Text>
                     </Heading>
                     <Text color={'gray.500'}>
-                        Snippy is a rich coding snippets app that lets you create your own
-                        code snippets, categorize them, and even sync them in the cloud so
-                        you can use them anywhere. All that is free!
+                    Because those who hustle win.
                     </Text>
                     <Stack
                         spacing={{ base: 4, sm: 6 }}
