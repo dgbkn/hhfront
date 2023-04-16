@@ -62,7 +62,7 @@ export default function Login() {
   const [isProvider, setisProvider] = useState(null);
   const [isModalOpen, setisModalOpen] = useState(false);
   const [address, setaddress] = useState("");
-  const [authToken, setauthToken] = useLocalStorage("token", "");
+  // const [authToken, setauthToken] = useLocalStorage("token", "");
   var router = useRouter();
 
   const [client, setclient] = useState({
