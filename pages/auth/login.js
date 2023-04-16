@@ -27,7 +27,6 @@ import { useLocalStorage } from '../../hooks/useLocalStorage.js';
 import { useRouter } from 'next/router';
 
 import Head from "next/head";
-import Popup from "reactjs-popup";
 
 
 import Web3 from 'web3';
@@ -62,7 +61,7 @@ export default function Login() {
   const [isProvider, setisProvider] = useState(null);
   const [isModalOpen, setisModalOpen] = useState(false);
   const [address, setaddress] = useState("");
-  // const [authToken, setauthToken] = useLocalStorage("token", "");
+  const [authToken, setauthToken] = useLocalStorage("token", "");
   var router = useRouter();
 
   const [client, setclient] = useState({
