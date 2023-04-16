@@ -173,26 +173,6 @@ export default function Login() {
       console.log('You need to sign the message to be able to log in.');
     }
 
-    //   return new Promise((resolve, reject) =>
-    //   Web3.personal.sign(
-    //     Web3.fromUtf8(`I am signing my one-time nonce: ${user.nonce}`),
-    //     user.publicAddress,
-    //     (err, signature) => {
-    //       if (err) return reject(err);
-    //       fetch(`https://hh.devgoyal3.repl.co/auth`, {
-    //         body: JSON.stringify({ publicAddress, signature }),
-    //         headers: {
-    //           'Content-Type': 'application/json'
-    //         },
-    //         method: 'POST'
-    //       }).then(response => {
-    //       var authT =  response.json();
-    //       var token = authT.accessToken;
-    //       setauthToken(token);
-    //       });
-    //     }
-    //   )
-    // );
   };
 
 
