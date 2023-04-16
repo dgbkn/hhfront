@@ -9,8 +9,6 @@ import Footer from '../components/Footer';
 import Head from "next/head";
 import Script from "next/script";
 
-// import './main.css';
-
 
 function MyApp({ Component, pageProps }) {
   return <ChakraProvider theme={theme}>

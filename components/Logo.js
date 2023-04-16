@@ -13,7 +13,6 @@ export const Logo = props => {
     return <>
 
         <Link href="/">
-            <a>
                 <HStack >
                     <Box w={65} >
                         <Image src="/logo.svg" />
@@ -30,7 +29,6 @@ export const Logo = props => {
                         Hidden Hustlers
                     </Heading>
                 </HStack>
-            </a>
         </Link>
 
 

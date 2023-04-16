@@ -9,7 +9,7 @@ export default function SearchComponent() {
         var qry = document.getElementById('theMaininput').value;
 
         if(qry){
-        router.push(`/search/${qry}`);
+        // router.push(`/search/${qry}`);
         }
     }
 
