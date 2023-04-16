@@ -31,32 +31,33 @@ import Popup from "reactjs-popup";
 
 
 import Web3 from 'web3';
-let web3 = new Web3(Web3.givenProvider) // Will hold the web3 instance
 
 const avatars = [
   {
     name: 'Ryan Florence',
-    // url: 'https://i.pravatar.cc/300?q',
+    url: 'https://i.pravatar.cc/300?q',
   },
   {
     name: 'Segun Adebayo',
-    // url: 'https://i.pravatar.cc/300?m',
+    url: 'https://i.pravatar.cc/300?m',
   },
   {
     name: 'Kent Dodds',
-    // url: 'https://i.pravatar.cc/300?n',
+    url: 'https://i.pravatar.cc/300?n',
   },
   {
     name: 'Prosper Otemuyiwa',
-    // url: 'https://i.pravatar.cc/300?y',
+    url: 'https://i.pravatar.cc/300?y',
   },
   {
     name: 'Christian Nwamba',
-    // url: 'https://i.pravatar.cc/300?t',
+    url: 'https://i.pravatar.cc/300?t',
   },
 ];
 
 export default function Login() {
+  let web3 = new Web3(Web3.givenProvider) // Will hold the web3 instance
+
   const [haveMetamask, sethaveMetamask] = useState(true);
   const [isProvider, setisProvider] = useState(null);
   const [isModalOpen, setisModalOpen] = useState(false);
